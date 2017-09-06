@@ -1,13 +1,13 @@
-﻿Log file open, 09/05/17 20:15:05
+﻿Log file open, 09/05/17 22:17:11
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: SquidMnch
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1842507892) SRandInit(-1842507892).
+LogInit: Display: RandInit(-1893533951) SRandInit(-1893533951).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.120141
+LogStats: Stats thread started at 0.106978
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -109,234 +109,386 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.06-01.15.06:656][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.06-01.15.06:657][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.06-01.15.06:668][  0]LogInit: Computer: SEC-2-PC
-[2017.09.06-01.15.06:668][  0]LogInit: User: Sec2
-[2017.09.06-01.15.06:668][  0]LogInit: CPU Page size=4096, Cores=2
-[2017.09.06-01.15.06:668][  0]LogInit: High frequency timer resolution =2.338359 MHz
-[2017.09.06-01.15.06:669][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
-[2017.09.06-01.15.06:669][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.06-01.15.06:669][  0]LogMemory: Process Physical Memory: 279.13 MB used, 279.13 MB peak
-[2017.09.06-01.15.06:669][  0]LogMemory: Process Virtual Memory: 276.66 MB used, 276.66 MB peak
-[2017.09.06-01.15.06:669][  0]LogMemory: Physical Memory: 3765.07 MB used,  4118.02 MB free, 7883.10 MB total
-[2017.09.06-01.15.06:669][  0]LogMemory: Virtual Memory: 653.85 MB used,  4118.02 MB free, 8388608.00 MB total
-[2017.09.06-01.15.06:910][  0]LogInit: Using OS detected language (en-US).
-[2017.09.06-01.15.06:910][  0]LogInit: Using OS detected locale (en-US).
-[2017.09.06-01.15.06:915][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.09.06-01.15.08:168][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.06-01.15.08:210][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 745M' (Feature Level 11_0)
-[2017.09.06-01.15.08:210][  0]LogD3D11RHI:       1992/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.09.06-01.15.08:231][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 745M' (Feature Level 11_0)
-[2017.09.06-01.15.08:231][  0]LogD3D11RHI:       1992/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
-[2017.09.06-01.15.08:231][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.06-01.15.08:241][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.06-01.15.08:241][  0]LogD3D11RHI:     GPU DeviceId: 0xfe3 (for the marketing name, search the web for "GPU Device Id")
-[2017.09.06-01.15.08:241][  0]LogWindows: EnumDisplayDevices:
-[2017.09.06-01.15.08:242][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
-[2017.09.06-01.15.08:242][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
-[2017.09.06-01.15.08:242][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
-[2017.09.06-01.15.08:242][  0]LogWindows:    3. 'NVIDIA GeForce GT 745M' (P:0 D:0)
-[2017.09.06-01.15.08:242][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2017.09.06-01.15.08:242][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.09.06-01.15.08:242][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.09.06-01.15.08:243][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter 
-[2017.09.06-01.15.08:243][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 745M
-[2017.09.06-01.15.08:243][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
-[2017.09.06-01.15.08:243][  0]LogD3D11RHI:      Driver Date: 8-21-2017
-[2017.09.06-01.15.08:243][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.09.06-01.15.08:264][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.06-01.15.08:283][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.09.06-01.15.08:284][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Intermediate/Shaders/WorkingDirectory/7088/).
-[2017.09.06-01.15.08:284][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sec 2/AppData/Local/Temp/UnrealShaderWorkingDir/3D601E734379A155F95B1E829D6AEEB6/'.
-[2017.09.06-01.15.08:284][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.09.06-01.15.10:184][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.06-01.15.10:249][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.09.06-01.15.10:312][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.06-01.15.10:376][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.09.06-01.15.10:441][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.09.06-01.15.10:507][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.06-01.15.10:569][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.06-01.15.10:631][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.06-01.15.10:688][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.09.06-01.15.10:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.09.06-01.15.10:824][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.06-01.15.10:891][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.06-01.15.10:980][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.06-01.15.11:071][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.06-01.15.11:139][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.06-01.15.11:278][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.06-01.15.11:278][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.06-01.15.11:329][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.09.06-01.15.11:448][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.09.06-01.15.11:486][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.09.06-01.15.11:546][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.06-01.15.11:610][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.06-01.15.11:672][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.06-01.15.11:738][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.09.06-01.15.11:738][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.09.06-01.15.12:295][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.09.06-01.15.12:467][  0]LogDerivedDataCache: Loaded boot cache 0.17s 93MB C:/Users/Sec 2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.06-01.15.12:467][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sec 2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.09.06-01.15.12:467][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.06-01.15.12:467][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.06-01.15.12:467][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.06-01.15.12:468][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.06-01.15.12:492][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.06-01.15.12:504][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sec 2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.06-01.15.12:520][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.09.06-01.15.12:521][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.06-01.15.12:522][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.06-01.15.12:522][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.06-01.15.12:997][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
-[2017.09.06-01.15.13:252][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.06-01.15.13:256][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.06-01.15.13:745][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.06-01.15.13:796][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.06-01.15.13:796][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.06-01.15.13:796][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.09.06-01.15.13:796][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.09.06-01.15.13:796][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.09.06-01.15.14:338][  0]LogNetVersion: SquidMnch , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2902319585)
-[2017.09.06-01.15.14:652][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.076931 seconds
-[2017.09.06-01.15.14:663][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.09.06-01.15.14:663][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2017.09.06-01.15.14:663][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.06-01.15.14:744][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.06-01.15.18:349][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.09.06-01.15.18:400][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.06-01.15.19:173][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.09.06-01.15.19:727][  0]SourceControl: Source control is disabled
-[2017.09.06-01.15.19:727][  0]SourceControl: Source control is disabled
-[2017.09.06-01.15.19:792][  0]SourceControl: Source control is disabled
-[2017.09.06-01.15.19:857][  0]SourceControl: Source control is disabled
-[2017.09.06-01.15.20:560][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.09.06-01.15.20:853][  0]LogOcInput: OculusInput pre-init called
-[2017.09.06-01.15.21:149][  0]LogEngine: Initializing Engine...
-[2017.09.06-01.15.21:151][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.09.06-01.15.21:471][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.06-01.15.21:471][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.06-01.15.21:627][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.09.06-01.15.21:645][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.09.06-01.15.21:678][  0]LogInit: FAudioDevice initialized.
-[2017.09.06-01.15.21:820][  0]LogDerivedDataCache: Saved boot cache 0.14s 93MB C:/Users/Sec 2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.06-01.15.21:832][  0]LogInit: Texture streaming: Enabled
-[2017.09.06-01.15.21:947][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.09.06-01.15.22:206][  0]LogInit: Transaction tracking system initialized
-[2017.09.06-01.15.22:590][  0]BlueprintLog: New page: Editor Load
-[2017.09.06-01.15.23:665][  0]LocalizationService: Localization service is disabled
-[2017.09.06-01.15.25:129][  0]LogConsoleResponse: Display: 
-[2017.09.06-01.15.25:397][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.09.06-01.15.25:397][  0]LogCook: Display: Mobile HDR setting 1
-[2017.09.06-01.15.25:397][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.09.06-01.15.25:799][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sec 2/Documents/GitHub/SquidMnch/Content/' took 0.01s
-[2017.09.06-01.15.26:714][  0]SourceControl: Source control is disabled
-[2017.09.06-01.15.26:714][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.06-01.15.26:714][  0]LightingResults: New page: Lighting Build
-[2017.09.06-01.15.26:764][  0]MapCheck: New page: Map Check
-[2017.09.06-01.15.26:764][  0]LightingResults: New page: Lighting Build
-[2017.09.06-01.15.27:200][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.09.06-01.15.27:213][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.06-01.15.27:241][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.06-01.15.27:300][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.132ms to complete.
-[2017.09.06-01.15.27:300][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.586
-[2017.09.06-01.15.27:402][  0]LogCollectionManager: Loaded 0 collections in 0.001383 seconds
-[2017.09.06-01.15.27:492][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sec 2/Documents/GitHub/SquidMnch/Saved/Collections/' took 0.01s
-[2017.09.06-01.15.27:493][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sec 2/Documents/GitHub/SquidMnch/Content/Developers/Sec2/Collections/' took 0.01s
-[2017.09.06-01.15.27:493][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sec 2/Documents/GitHub/SquidMnch/Content/Collections/' took 0.01s
-[2017.09.06-01.15.27:493][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2017.09.06-01.15.27:504][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2386 classes and 500 folders.
-[2017.09.06-01.15.27:581][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.09.06-01.15.27:641][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.09.06-01.15.27:765][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.09.06-01.15.27:806][  0]LogSlate: Took 0.015013 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.06-01.15.27:814][  0]LogSlate: Took 0.000612 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.09.06-01.15.28:010][  0]LogRenderer: Reallocating scene render targets to support 1232x924 Format 9 NumSamples 1 (Frame:1).
-[2017.09.06-01.15.28:256][  0]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2017.09.06-01.15.28:324][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.09.06-01.15.28:324][  0]LogLoad: (Engine Initialization) Total time: 23.33 seconds
-[2017.09.06-01.15.28:324][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.09.06-01.15.28:324][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.09.06-01.15.28:357][  0]LogContentStreaming: Texture pool size now 400 MB
-[2017.09.06-01.15.28:380][  1]LogAssetRegistry: Asset discovery search completed in 15.4038 seconds
-[2017.09.06-01.15.28:384][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.09.06-01.15.28:384][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
-[2017.09.06-01.15.35:345][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp_StaticMesh)
-[2017.09.06-01.15.35:438][254]LogSlate: Took 0.000424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.09.06-01.15.40:036][417]Cmd: DELETE
-[2017.09.06-01.15.40:036][417]Cmd: ACTOR DELETE
-[2017.09.06-01.15.40:044][417]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.09.06-01.15.40:057][417]LogEditorActor: Deleted 1 Actors (0.021 secs)
-[2017.09.06-01.15.41:684][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
-[2017.09.06-01.15.43:655][547]Cmd: DELETE
-[2017.09.06-01.15.43:655][547]Cmd: ACTOR DELETE
-[2017.09.06-01.15.43:655][547]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.09.06-01.15.43:674][547]LogEditorActor: Deleted 1 Actors (0.019 secs)
-[2017.09.06-01.15.44:504][577]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LeftArm_StaticMesh)
-[2017.09.06-01.15.45:119][597]Cmd: DELETE
-[2017.09.06-01.15.45:120][597]Cmd: ACTOR DELETE
-[2017.09.06-01.15.45:120][597]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.09.06-01.15.45:139][597]LogEditorActor: Deleted 1 Actors (0.019 secs)
-[2017.09.06-01.15.45:919][626]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bump_StaticMesh)
-[2017.09.06-01.15.46:375][640]Cmd: DELETE
-[2017.09.06-01.15.46:375][640]Cmd: ACTOR DELETE
-[2017.09.06-01.15.46:376][640]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.09.06-01.15.46:396][640]LogEditorActor: Deleted 1 Actors (0.021 secs)
-[2017.09.06-01.15.46:960][661]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RightArm_StaticMesh)
-[2017.09.06-01.15.47:410][675]Cmd: DELETE
-[2017.09.06-01.15.47:410][675]Cmd: ACTOR DELETE
-[2017.09.06-01.15.47:412][675]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.09.06-01.15.47:429][675]LogEditorActor: Deleted 1 Actors (0.017 secs)
-[2017.09.06-01.15.48:108][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_StaticMesh)
-[2017.09.06-01.15.48:487][712]Cmd: DELETE
-[2017.09.06-01.15.48:487][712]Cmd: ACTOR DELETE
-[2017.09.06-01.15.48:488][712]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.09.06-01.15.48:506][712]LogEditorActor: Deleted 1 Actors (0.019 secs)
-[2017.09.06-01.16.02:639][261]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.06-01.17.10:628][384]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.06-01.17.10:825][384]LogSavePackage: Save=97.50ms
-[2017.09.06-01.17.10:825][384]LogSavePackage: Moving '../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Saved/ThirdPersonExampleMap82FEF5BE4B97EFF9964A1AB47F9F18E7.tmp' to '../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2017.09.06-01.17.10:831][384]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2017.09.06-01.17.10:909][384]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.259
-[2017.09.06-01.17.10:913][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Hud" FILE="../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Content/ThirdPersonBP/Blueprints/Hud.uasset" SILENT=true
-[2017.09.06-01.17.10:953][384]LogSavePackage: Save=21.09ms
-[2017.09.06-01.17.10:953][384]LogSavePackage: Moving '../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Saved/Hud19298934426D359A41EA97839F98A0A2.tmp' to '../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Content/ThirdPersonBP/Blueprints/Hud.uasset'
-[2017.09.06-01.17.10:960][384]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Content/ThirdPersonBP/Blueprints/Hud.uasset
-[2017.09.06-01.17.24:561][  5]SourceControl: On branch master
-[2017.09.06-01.17.24:562][  5]SourceControl: Your branch is up-to-date with 'origin/master'.
-[2017.09.06-01.17.24:562][  5]SourceControl: Changes not staged for commit:
-[2017.09.06-01.17.24:562][  5]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.09.06-01.17.24:562][  5]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.09.06-01.17.24:562][  5]SourceControl: 	modified:   Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2017.09.06-01.17.24:562][  5]SourceControl: Untracked files:
-[2017.09.06-01.17.24:562][  5]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.09.06-01.17.24:562][  5]SourceControl: 	Content/ThirdPersonBP/Blueprints/Hud.uasset
-[2017.09.06-01.17.24:562][  5]SourceControl: 	Intermediate/
-[2017.09.06-01.17.24:562][  5]SourceControl: 	Saved/
-[2017.09.06-01.17.24:562][  5]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.09.06-01.17.32:544][371]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
-[2017.09.06-01.17.40:009][371]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.09.06-01.17.40:130][371]SourceControl: [master 138c0b2] fisrt
-[2017.09.06-01.17.40:130][371]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
-[2017.09.06-01.17.40:130][371]SourceControl:  create mode 100644 Content/ThirdPersonBP/Blueprints/Hud.uasset
-[2017.09.06-01.17.40:135][371]SourceControl: Commited [master 138c0b2] fisrt.
-[2017.09.06-01.19.12:447][300]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2017.09.06-01.19.14:759][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.09.06-01.19.32:470][ 41]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 113 classes and 0 folders.
-[2017.09.06-01.19.34:124][ 41]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.06-01.19.34:151][ 41]LogSlate: Took 0.026449 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.09.06-01.22.30:182][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Hud" FILE="../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Content/ThirdPersonBP/Blueprints/Hud.uasset" SILENT=true
-[2017.09.06-01.22.30:201][118]LogSavePackage: Save=12.74ms
-[2017.09.06-01.22.30:201][118]LogSavePackage: Moving '../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Saved/Hud250A51B74B9CCDB5769846B9D155787D.tmp' to '../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Content/ThirdPersonBP/Blueprints/Hud.uasset'
-[2017.09.06-01.22.30:207][118]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Content/ThirdPersonBP/Blueprints/Hud.uasset
-[2017.09.06-01.22.30:841][135]BlueprintLog: New page: Compile Hud
-[2017.09.06-01.22.34:246][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Hud" FILE="../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Content/ThirdPersonBP/Blueprints/Hud.uasset" SILENT=true
-[2017.09.06-01.22.34:261][226]LogSavePackage: Save=11.90ms
-[2017.09.06-01.22.34:262][226]LogSavePackage: Moving '../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Saved/Hud4495F7EC4E01CAB3CB64CBB2EC60B0F8.tmp' to '../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Content/ThirdPersonBP/Blueprints/Hud.uasset'
-[2017.09.06-01.22.34:265][226]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Content/ThirdPersonBP/Blueprints/Hud.uasset
-[2017.09.06-01.25.45:089][521]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
-[2017.09.06-01.25.52:295][521]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.09.06-01.25.52:436][521]SourceControl: [master 642e1da] hud
-[2017.09.06-01.25.52:436][521]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
-[2017.09.06-01.25.52:436][521]SourceControl:  rewrite Content/ThirdPersonBP/Blueprints/Hud.uasset (61%)
-[2017.09.06-01.25.52:441][521]SourceControl: Commited [master 642e1da] hud.
+[2017.09.06-03.17.11:711][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.06-03.17.11:711][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.06-03.17.11:738][  0]LogInit: Computer: SEC-2-PC
+[2017.09.06-03.17.11:738][  0]LogInit: User: Sec2
+[2017.09.06-03.17.11:738][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.09.06-03.17.11:738][  0]LogInit: High frequency timer resolution =2.338359 MHz
+[2017.09.06-03.17.11:738][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2017.09.06-03.17.11:738][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.06-03.17.11:738][  0]LogMemory: Process Physical Memory: 279.94 MB used, 279.94 MB peak
+[2017.09.06-03.17.11:738][  0]LogMemory: Process Virtual Memory: 278.69 MB used, 278.69 MB peak
+[2017.09.06-03.17.11:738][  0]LogMemory: Physical Memory: 2622.08 MB used,  5261.02 MB free, 7883.10 MB total
+[2017.09.06-03.17.11:738][  0]LogMemory: Virtual Memory: 655.91 MB used,  5261.02 MB free, 8388608.00 MB total
+[2017.09.06-03.17.11:927][  0]LogInit: Using OS detected language (en-US).
+[2017.09.06-03.17.11:927][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.06-03.17.11:931][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.06-03.17.12:803][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.06-03.17.12:840][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 745M' (Feature Level 11_0)
+[2017.09.06-03.17.12:840][  0]LogD3D11RHI:       1992/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.06-03.17.12:862][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 745M' (Feature Level 11_0)
+[2017.09.06-03.17.12:862][  0]LogD3D11RHI:       1992/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2017.09.06-03.17.12:862][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.06-03.17.12:869][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.06-03.17.12:869][  0]LogD3D11RHI:     GPU DeviceId: 0xfe3 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.06-03.17.12:869][  0]LogWindows: EnumDisplayDevices:
+[2017.09.06-03.17.12:869][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.09.06-03.17.12:869][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.09.06-03.17.12:869][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.09.06-03.17.12:870][  0]LogWindows:    3. 'NVIDIA GeForce GT 745M' (P:0 D:0)
+[2017.09.06-03.17.12:870][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.09.06-03.17.12:870][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.09.06-03.17.12:870][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.09.06-03.17.12:870][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter 
+[2017.09.06-03.17.12:870][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 745M
+[2017.09.06-03.17.12:870][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.09.06-03.17.12:870][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.09.06-03.17.12:870][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.06-03.17.12:890][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.06-03.17.12:906][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.09.06-03.17.12:907][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Intermediate/Shaders/WorkingDirectory/6256/).
+[2017.09.06-03.17.12:907][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sec 2/AppData/Local/Temp/UnrealShaderWorkingDir/0CB027314F14EF36C395CDA72680CDE8/'.
+[2017.09.06-03.17.12:907][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.06-03.17.14:319][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.06-03.17.14:376][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.06-03.17.14:435][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.06-03.17.14:492][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.06-03.17.14:549][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.06-03.17.14:606][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.06-03.17.14:664][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.06-03.17.14:722][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.06-03.17.14:772][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.06-03.17.14:829][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.06-03.17.14:887][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.06-03.17.14:942][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.06-03.17.14:998][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.06-03.17.15:054][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.06-03.17.15:110][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.06-03.17.15:220][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.06-03.17.15:220][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.06-03.17.15:265][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.06-03.17.15:362][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.06-03.17.15:392][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.06-03.17.15:449][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.06-03.17.15:506][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.06-03.17.15:564][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.06-03.17.15:621][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.06-03.17.15:621][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.06-03.17.16:095][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.06-03.17.16:209][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/Sec 2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.06-03.17.16:209][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sec 2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.06-03.17.16:209][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.06-03.17.16:209][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.06-03.17.16:209][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.06-03.17.16:209][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.06-03.17.16:233][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.06-03.17.16:260][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sec 2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.06-03.17.16:272][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.06-03.17.16:273][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.06-03.17.16:273][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.06-03.17.16:273][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.06-03.17.16:563][  0]LogAssetRegistry: FAssetRegistry took 0.0246 seconds to start up
+[2017.09.06-03.17.16:762][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.06-03.17.16:767][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.06-03.17.17:188][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.06-03.17.17:231][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.06-03.17.17:231][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.06-03.17.17:231][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.06-03.17.17:231][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.06-03.17.17:231][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.06-03.17.17:632][  0]LogNetVersion: SquidMnch , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2902319585)
+[2017.09.06-03.17.17:933][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.072235 seconds
+[2017.09.06-03.17.17:943][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.06-03.17.17:943][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.06-03.17.17:943][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.06-03.17.18:009][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.06-03.17.20:766][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.06-03.17.20:799][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.06-03.17.21:476][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.06-03.17.21:934][  0]SourceControl: Source control is disabled
+[2017.09.06-03.17.23:010][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.06-03.17.23:253][  0]LogOcInput: OculusInput pre-init called
+[2017.09.06-03.17.23:520][  0]LogEngine: Initializing Engine...
+[2017.09.06-03.17.23:522][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.06-03.17.23:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.06-03.17.23:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.06-03.17.23:950][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.06-03.17.23:963][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.06-03.17.23:990][  0]LogInit: FAudioDevice initialized.
+[2017.09.06-03.17.24:128][  0]LogDerivedDataCache: Saved boot cache 0.14s 93MB C:/Users/Sec 2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.06-03.17.24:142][  0]LogInit: Texture streaming: Enabled
+[2017.09.06-03.17.24:244][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.06-03.17.24:583][  0]LogInit: Transaction tracking system initialized
+[2017.09.06-03.17.24:916][  0]BlueprintLog: New page: Editor Load
+[2017.09.06-03.17.25:888][  0]LocalizationService: Localization service is disabled
+[2017.09.06-03.17.26:749][  0]LogConsoleResponse: Display: 
+[2017.09.06-03.17.27:071][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.06-03.17.27:071][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.06-03.17.27:071][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.06-03.17.27:885][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sec 2/Documents/GitHub/SquidMnch/Content/' took 0.01s
+[2017.09.06-03.17.28:298][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.06-03.17.28:298][  0]LightingResults: New page: Lighting Build
+[2017.09.06-03.17.28:345][  0]MapCheck: New page: Map Check
+[2017.09.06-03.17.28:345][  0]LightingResults: New page: Lighting Build
+[2017.09.06-03.17.30:814][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.06-03.17.30:828][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.06-03.17.30:845][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.06-03.17.30:890][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.847ms to complete.
+[2017.09.06-03.17.30:890][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.593
+[2017.09.06-03.17.30:976][  0]LogCollectionManager: Loaded 0 collections in 0.002043 seconds
+[2017.09.06-03.17.31:058][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sec 2/Documents/GitHub/SquidMnch/Saved/Collections/' took 0.01s
+[2017.09.06-03.17.31:058][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sec 2/Documents/GitHub/SquidMnch/Content/Developers/Sec2/Collections/' took 0.01s
+[2017.09.06-03.17.31:058][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sec 2/Documents/GitHub/SquidMnch/Content/Collections/' took 0.01s
+[2017.09.06-03.17.31:058][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.06-03.17.31:071][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2386 classes and 500 folders.
+[2017.09.06-03.17.31:146][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.06-03.17.31:189][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.06-03.17.31:347][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.06-03.17.31:377][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.06-03.17.31:385][  0]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.06-03.17.31:386][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.06-03.17.31:544][  0]LogRenderer: Reallocating scene render targets to support 1232x924 Format 9 NumSamples 1 (Frame:1).
+[2017.09.06-03.17.31:784][  0]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.09.06-03.17.31:852][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.06-03.17.31:852][  0]LogLoad: (Engine Initialization) Total time: 21.79 seconds
+[2017.09.06-03.17.31:852][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.06-03.17.31:852][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.06-03.17.31:879][  0]SourceControl: On branch master
+[2017.09.06-03.17.31:879][  0]SourceControl: Your branch is ahead of 'origin/master' by 1 commit.
+[2017.09.06-03.17.31:879][  0]SourceControl:   (use "git push" to publish your local commits)
+[2017.09.06-03.17.31:879][  0]SourceControl: Changes not staged for commit:
+[2017.09.06-03.17.31:879][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.09.06-03.17.31:879][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.06-03.17.31:879][  0]SourceControl: 	modified:   Config/DefaultEditor.ini
+[2017.09.06-03.17.31:879][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.09.06-03.17.31:879][  0]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.09.06-03.17.31:879][  0]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.09.06-03.17.31:879][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.09.06-03.17.31:879][  0]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.09.06-03.17.31:879][  0]SourceControl: 	modified:   Saved/Logs/SquidMnch.log
+[2017.09.06-03.17.31:879][  0]SourceControl: Untracked files:
+[2017.09.06-03.17.31:879][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.06-03.17.31:879][  0]SourceControl: 	Intermediate/AssetRegistryCache/311563bb.bin
+[2017.09.06-03.17.31:879][  0]SourceControl: 	Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.09.06-03.17.31:879][  0]SourceControl: 	Saved/AutoScreenshot.png
+[2017.09.06-03.17.31:880][  0]SourceControl: 	Saved/Autosaves/Game/
+[2017.09.06-03.17.31:880][  0]SourceControl: 	Saved/Backup/M_UE4Man_Body_2017-09-05-21-13-20.uasset
+[2017.09.06-03.17.31:880][  0]SourceControl: 	Saved/Backup/SK_Mannequin_2017-09-05-21-00-57.uasset
+[2017.09.06-03.17.31:880][  0]SourceControl: 	Saved/Backup/ThirdPersonExampleMap_2017-09-05-20-29-36.umap
+[2017.09.06-03.17.31:880][  0]SourceControl: 	Saved/Backup/ThirdPersonExampleMap_2017-09-05-20-49-36.umap
+[2017.09.06-03.17.31:880][  0]SourceControl: 	Saved/Backup/ThirdPersonExampleMap_2017-09-05-21-03-24.umap
+[2017.09.06-03.17.31:880][  0]SourceControl: 	Saved/Backup/ThirdPersonExampleMap_2017-09-05-21-13-19.umap
+[2017.09.06-03.17.31:880][  0]SourceControl: 	Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-09-05-21-03-25.uasset
+[2017.09.06-03.17.31:880][  0]SourceControl: 	Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-09-05-21-13-19.uasset
+[2017.09.06-03.17.31:880][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-176B170F4F994BE2C8D471A4255DB587/
+[2017.09.06-03.17.31:880][  0]SourceControl: 	Saved/Logs/SquidMnch-backup-2017.09.05-22.17.11.log
+[2017.09.06-03.17.31:880][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.09.06-03.17.31:880][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.09.06-03.17.31:891][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.06-03.17.31:914][  1]LogAssetRegistry: Asset discovery search completed in 15.3710 seconds
+[2017.09.06-03.17.31:919][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.06-03.17.31:919][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000089 seconds (updated 0 objects)
+[2017.09.06-03.17.47:097][754]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.06-03.17.55:916][815]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 113 classes and 0 folders.
+[2017.09.06-03.17.56:801][815]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.06-03.19.25:727][  3]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.06-03.19.25:728][  3]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.06-03.20.01:561][144]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_127' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.01:590][144]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_129' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.01:644][145]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_131' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.01:646][145]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_133' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.01:665][146]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_135' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.01:695][147]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_137' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.01:698][147]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_139' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.01:729][148]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_141' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.01:759][149]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_143' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.01:762][149]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_145' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.01:794][150]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_147' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.01:828][151]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_149' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.01:859][152]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_151' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.01:861][152]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_153' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.01:894][153]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_155' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.01:927][154]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_157' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.01:959][155]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_159' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.01:993][156]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_161' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:026][157]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_163' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:060][158]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_165' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:094][159]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_167' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:126][160]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_169' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:159][161]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_171' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:194][162]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_173' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:224][163]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_175' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:228][163]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_177' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:259][164]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_179' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:291][165]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_181' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:325][166]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_183' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:327][166]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_185' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:360][167]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_187' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:363][167]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_189' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:393][168]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_191' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:426][169]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_193' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:460][170]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_195' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:493][171]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_197' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:526][172]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_199' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:558][173]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_201' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:561][173]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_203' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:591][174]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_205' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:595][174]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_207' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:625][175]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_209' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:628][175]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_211' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:661][176]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_213' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:691][177]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_215' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:694][177]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_217' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:728][178]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_219' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:730][178]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_221' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:763][179]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_223' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:766][179]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_225' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:795][180]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_227' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:799][180]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_229' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:830][181]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_231' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:862][182]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_233' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:894][183]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_235' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:927][184]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_237' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:960][185]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_239' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.02:995][186]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_241' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:026][187]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_243' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:028][187]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_245' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:062][188]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_247' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:095][189]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_249' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:127][190]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_251' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:160][191]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_253' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:193][192]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_255' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:224][193]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_257' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:253][194]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_259' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:258][194]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_261' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:288][195]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_263' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:318][196]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_265' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:323][196]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_267' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:353][197]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_269' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:383][198]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_271' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:386][198]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_273' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:417][199]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_275' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:450][200]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_277' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:481][201]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_279' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:516][202]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_281' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:547][203]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_283' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:578][204]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_285' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:581][204]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_287' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:612][205]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_289' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:646][206]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_291' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:678][207]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_293' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:711][208]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_295' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:743][209]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_297' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:777][210]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_299' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:808][211]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_301' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:812][211]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_303' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:843][212]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_305' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:877][213]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_307' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:880][213]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_309' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:909][214]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_311' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:911][214]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_313' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:942][215]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_315' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:946][215]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_317' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.03:978][216]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_319' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:011][217]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_321' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:042][218]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_323' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:075][219]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_325' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:106][220]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_327' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:138][221]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_329' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:171][222]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_331' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:201][223]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_333' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:234][224]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_335' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:265][225]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_337' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:300][226]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_339' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:332][227]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_341' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:365][228]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_343' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:368][228]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_345' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:397][229]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_347' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:400][229]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_349' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:430][230]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_351' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:433][230]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_353' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:462][231]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_355' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:465][231]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_357' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:496][232]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_359' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:531][233]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_361' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:565][234]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_363' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:597][235]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_365' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:600][235]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_367' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:630][236]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_369' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:634][236]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_371' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:662][237]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_373' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:666][237]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_375' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:695][238]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_377' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:697][238]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_379' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:699][238]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_381' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:729][239]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_383' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:762][240]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_385' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:794][241]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_387' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:827][242]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_389' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:859][243]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_391' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:893][244]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_393' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:926][245]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_395' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:960][246]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_397' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.04:992][247]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_399' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.05:026][248]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_401' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.05:059][249]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_403' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.05:093][250]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_405' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.05:125][251]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_407' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.05:160][252]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_409' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.05:192][253]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_411' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.05:225][254]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_413' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.05:259][255]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_415' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.05:294][256]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_417' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.05:326][257]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_419' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.05:361][258]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_421' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.09.06-03.20.27:703][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/testHud" FILE="../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Content/ThirdPersonBP/Blueprints/testHud.uasset" SILENT=true
+[2017.09.06-03.20.27:717][957]LogSavePackage: Save=10.43ms
+[2017.09.06-03.20.27:717][957]LogSavePackage: Moving '../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Saved/testHudC33706BC4D05E3A3906A10AA16D924CA.tmp' to '../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Content/ThirdPersonBP/Blueprints/testHud.uasset'
+[2017.09.06-03.20.27:722][957]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Content/ThirdPersonBP/Blueprints/testHud.uasset
+[2017.09.06-03.20.51:557][147]LogSlate: Took 0.002439 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: request failed, libcurl error: 52 (Server returned nothing (no headers, no data))
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 0 (Connection 1 seems to be dead!)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 1 (Closing connection 1)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 3 (  Trying 107.21.56.155...)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (107.21.56.155) port 443 (#2))
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 7 (SSL re-using session ID)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 8 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 10 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 12 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 13 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 14 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 15 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 16 (TLSv1.2 (IN), TLS change cipher, Client hello (1):)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 18 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 19 (ALPN, server did not agree to a protocol)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 20 (old SSL session ID is stale, removing)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 21 (Server certificate:)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 22 (	 subject: CN=*.ol.epicgames.com)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 23 (	 start date: Mar 23 00:00:00 2017 GMT)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 24 (	 expire date: Apr 23 12:00:00 2018 GMT)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 25 (	 subjectAltName: datarouter.ol.epicgames.com matched)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 26 (	 issuer: C=US; O=Amazon; OU=Server CA 1B; CN=Amazon)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 27 (	 SSL certificate verify ok.)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 28 (upload completely sent off: 360 out of 360 bytes)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 29 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 30 (Empty reply from server)
+[2017.09.06-03.23.00:105][101]LogHttp: Warning: 0000000086FB3400: libcurl info message cache 31 (Connection #2 to host datarouter.ol.epicgames.com left intact)
+[2017.09.06-03.27.32:596][581]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.061
+[2017.09.06-03.27.32:599][581]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode] ([1] browsable assets)...
+[2017.09.06-03.27.32:599][581]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode]
+[2017.09.06-03.27.32:625][581]LogSavePackage: Save=16.64ms
+[2017.09.06-03.27.32:625][581]LogSavePackage: Moving '../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Saved/ThirdPersonGameMode_Auto11D451CD94196ADB977BF51B74CE4154B.tmp' to '../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto1.uasset'
+[2017.09.06-03.27.32:628][581]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto1.uasset
+[2017.09.06-03.27.32:630][581]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/testHud] ([1] browsable assets)...
+[2017.09.06-03.27.32:630][581]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/testHud]
+[2017.09.06-03.27.32:656][581]LogSavePackage: Save=8.96ms
+[2017.09.06-03.27.32:656][581]LogSavePackage: Moving '../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Saved/testHud_Auto12EC639E4400B50A48A0DD39189589ADB.tmp' to '../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/testHud_Auto1.uasset'
+[2017.09.06-03.27.32:659][581]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sec 2/Documents/GitHub/SquidMnch/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/testHud_Auto1.uasset
+[2017.09.06-03.27.32:659][581]LogFileHelpers: Auto-saving content packages took 0.063
